@@ -1,0 +1,18 @@
+{
+  "name": "qr-code-generator-full-website",
+  "version": "1.0.0",
+  "description": "Website that takes string link as an input and then convert it into qrcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "danishraimi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "qr-image": "^3.2.0"
+  }
+}
